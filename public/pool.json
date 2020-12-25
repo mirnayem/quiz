@@ -1,0 +1,68 @@
+{
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "Which one is correct team name in NBA?",
+                "options": {
+                  "a":   "New York Bulls",
+                  "b":  "Los Angeles Kings",
+                  "c":  "Golden State Warriros",
+                  "d":   "Huston Rocket"
+                },
+                "answer": ["d"],
+                 "type" : "single"
+            }, 
+            "q2": {
+                "question": "Who was the captain of Bangladesh cricket team?",
+                "options": {
+                  "a" :   "Habibul Bashar Sumon",
+                  "b" :  "Mohammad Rafiq",
+                  "c" :  "Khaled Mahmud Sujan",
+                  "d" : "Mehrab Hossain"
+                },
+                "answer": ["a", "c"], 
+                "type" : "multiple"
+            }
+        },
+        "maths": {
+            "q1": {
+                "question": "5 + 7 = ?",
+                "options": {
+                  "a":   "10",
+                  "b" :  "11",
+                  "c":  "12",
+                  "d" :  "13"
+                },
+                "answer": ["c"],
+                "type" : "single"
+            },
+            "q2": {
+                "question": "12 - 8 = ?",
+                "options": {
+                  "a":   "1",
+                  "b":   "2",
+                  "c":  "3",
+                  "d":  "4"
+                },
+                "answer": ["d"],
+                "type" : "single"
+            }, 
+            "q3": {
+                "question": "What is correct answer?",
+                "options": {
+                  "a" :   "3 > 9",
+                  "b" :  "5 < 10",
+                  "c" :  "7 != 5",
+                  "d" : "9 < 5"
+                },
+                "answer": ["b", "c", "d"], 
+                "type" : "multiple"
+            }
+        }
+        
+    }, 
+    "total_mark" : 10,
+    "pass_mark": 6, 
+    "wrong_answer": 1,
+    "time_per_q_sec": 60
+}
